@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
 const services = [
-  "Brand Identity",
-  "Digital Strategy",
-  "Web Development",
-  "Art Direction",
+  "Identidade de Marca",
+  "Estratégia Digital",
+  "Desenvolvimento Web",
+  "Direção de Arte",
   "Motion Design",
-  "3D Visualization"
+  "Visualização 3D"
 ];
 
 export function Services() {
@@ -16,9 +16,9 @@ export function Services() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="md:col-span-1">
-            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">Our Services</h2>
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">Nossos Serviços</h2>
             <p className="text-lg opacity-70">
-              Comprehensive design solutions tailored to elevate your brand's presence in the digital and physical world.
+              Soluções de design abrangentes, feitas sob medida para elevar a presença da sua marca no mundo digital e físico.
             </p>
           </div>
           

@@ -15,6 +15,13 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const menuItems = [
+    { name: "Trabalhos", id: "work" },
+    { name: "Estúdio", id: "studio" },
+    { name: "Serviços", id: "services" },
+    { name: "Contato", id: "contact" }
+  ];
+
   return (
     <>
       <nav
@@ -53,14 +60,14 @@ export function Navbar() {
             </button>
 
             <div className="flex flex-col space-y-8 text-center">
-              {["Work", "Studio", "Services", "Contact"].map((item) => (
+              {menuItems.map((item) => (
                 <a
-                  key={item}
-                  href={`#${item.toLowerCase()}`}
+                  key={item.name}
+                  href={`#${item.id}`}
                   onClick={() => setIsOpen(false)}
                   className="text-5xl md:text-7xl font-display font-bold hover:text-primary transition-colors cursor-pointer"
                 >
-                  {item}
+                  {item.name}
                 </a>
               ))}
             </div>

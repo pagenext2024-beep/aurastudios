@@ -7,7 +7,7 @@ const projects = [
   {
     id: 1,
     title: "Mono Arch",
-    category: "Architecture",
+    category: "Arquitetura",
     image: work1,
     year: "2024"
   },
@@ -21,7 +21,7 @@ const projects = [
   {
     id: 3,
     title: "Sonic One",
-    category: "Product",
+    category: "Produto",
     image: work3,
     year: "2023"
   }
@@ -32,7 +32,7 @@ export function Works() {
     <section id="work" className="py-20 px-6 bg-background">
       <div className="container mx-auto">
         <div className="flex justify-between items-end mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold">Selected Works</h2>
+          <h2 className="text-4xl md:text-5xl font-display font-bold">Trabalhos Selecionados</h2>
           <span className="hidden md:block text-muted-foreground">(2023 — 2024)</span>
         </div>
 

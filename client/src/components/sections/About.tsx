@@ -11,21 +11,21 @@ export function About() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-display font-medium leading-[1.1]">
-            We are a collective of visionaries, crafting <span className="text-primary italic">digital artifacts</span> that transcend the ordinary. We believe in the power of design to evoke emotion and drive culture.
+            Somos um coletivo de visionários, criando <span className="text-primary italic">artefatos digitais</span> que transcendem o comum. Acreditamos no poder do design para evocar emoção e impulsionar a cultura.
           </h2>
           
           <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Founded in 2024, AURA has quickly established itself as a leader in avant-garde digital design. We partner with brands that aren't afraid to break the rules.
+                Fundada em 2024, a AURA estabeleceu-se rapidamente como líder em design digital de vanguarda. Fazemos parcerias com marcas que não têm medo de quebrar regras.
               </p>
             </div>
             <div className="flex gap-16 text-sm uppercase tracking-widest text-muted-foreground">
               <div className="flex flex-col gap-2">
-                <span className="text-white font-bold">Location</span>
-                <span>New York</span>
-                <span>London</span>
-                <span>Tokyo</span>
+                <span className="text-white font-bold">Localização</span>
+                <span>Nova York</span>
+                <span>Londres</span>
+                <span>Tóquio</span>
               </div>
               <div className="flex flex-col gap-2">
                 <span className="text-white font-bold">Social</span>

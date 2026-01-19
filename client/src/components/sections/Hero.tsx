@@ -29,11 +29,11 @@ export function Hero() {
           className="mt-8 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-12"
         >
           <p className="text-lg md:text-xl font-light tracking-wide uppercase text-white/80">
-            Digital Experiences
+            Experiências Digitais
           </p>
           <span className="hidden md:block w-2 h-2 rounded-full bg-primary" />
           <p className="text-lg md:text-xl font-light tracking-wide uppercase text-white/80">
-            Global Creative Studio
+            Estúdio Criativo Global
           </p>
         </motion.div>
       </div>
