@@ -1,0 +1,39 @@
+19:01:57.671 Running build in Portland, USA (West) – pdx1
+19:01:57.671 Build machine configuration: 2 cores, 8 GB
+19:01:57.777 Cloning github.com/pagenext2024-beep/aurastudio (Branch: main, Commit: f47c3bb)
+19:01:57.778 Previous build caches not available.
+19:01:58.362 Cloning completed: 585.000ms
+19:01:58.719 Running "vercel build"
+19:01:59.875 Vercel CLI 50.4.8
+19:02:00.680 Running "install" command: `npm install`...
+19:02:04.251 npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+19:02:04.291 npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+19:02:10.893 
+19:02:10.894 added 379 packages, and audited 380 packages in 10s
+19:02:10.894 
+19:02:10.894 51 packages are looking for funding
+19:02:10.895   run `npm fund` for details
+19:02:10.915 
+19:02:10.916 4 moderate severity vulnerabilities
+19:02:10.916 
+19:02:10.917 To address all issues (including breaking changes), run:
+19:02:10.917   npm audit fix --force
+19:02:10.918 
+19:02:10.918 Run `npm audit` for details.
+19:02:11.558 [36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+19:02:11.633 transforming...
+19:02:11.679 [32m✓[39m 4 modules transformed.
+19:02:11.684 [31m✗[39m Build failed in 97ms
+19:02:11.684 [31merror during build:
+19:02:11.684 [31m[vite]: Rollup failed to resolve import "@/components/ui/toaster" from "/vercel/path0/client/src/App.tsx".
+19:02:11.684 This is most likely unintended because it can break your application at runtime.
+19:02:11.684 If you do want to externalize this module explicitly add it to
+19:02:11.686 `build.rollupOptions.external`[31m
+19:02:11.686     at viteLog (file:///vercel/path0/node_modules/vite/dist/node/chunks/config.js:33635:57)
+19:02:11.686     at onRollupLog (file:///vercel/path0/node_modules/vite/dist/node/chunks/config.js:33665:7)
+19:02:11.686     at onLog (file:///vercel/path0/node_modules/vite/dist/node/chunks/config.js:33467:4)
+19:02:11.686     at file:///vercel/path0/node_modules/rollup/dist/es/shared/node-entry.js:21081:32
+19:02:11.686     at Object.logger [as onLog] (file:///vercel/path0/node_modules/rollup/dist/es/shared/node-entry.js:22968:9)
+19:02:11.686     at ModuleLoader.handleInvalidResolvedId (file:///vercel/path0/node_modules/rollup/dist/es/shared/node-entry.js:21712:26)
+19:02:11.686     at file:///vercel/path0/node_modules/rollup/dist/es/shared/node-entry.js:21670:26[39m
+19:02:11.744 Error: Command "cd client && npx vite build --outDir ../dist" exited with 1
