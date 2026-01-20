@@ -29,15 +29,14 @@ export function Navbar() {
           scrolled ? "bg-background/80 backdrop-blur-md" : "bg-transparent"
         }`}
       >
-        <Link href="/">
-          <a className="text-2xl font-display font-bold tracking-tighter hover:text-primary transition-colors cursor-pointer">
-            AURA
-          </a>
+        <Link href="/" className="text-2xl font-display font-bold tracking-tighter hover:text-primary transition-colors cursor-pointer">
+          AURA
         </Link>
 
         <button
           onClick={() => setIsOpen(true)}
           className="text-foreground hover:text-primary transition-colors cursor-pointer"
+          data-testid="button-menu"
         >
           <Menu size={32} strokeWidth={1.5} />
         </button>
@@ -55,6 +54,7 @@ export function Navbar() {
             <button
               onClick={() => setIsOpen(false)}
               className="absolute top-6 right-6 text-foreground hover:text-primary transition-colors cursor-pointer"
+              data-testid="button-close-menu"
             >
               <X size={32} strokeWidth={1.5} />
             </button>
@@ -66,6 +66,7 @@ export function Navbar() {
                   href={`#${item.id}`}
                   onClick={() => setIsOpen(false)}
                   className="text-5xl md:text-7xl font-display font-bold hover:text-primary transition-colors cursor-pointer"
+                  data-testid={`link-${item.id}`}
                 >
                   {item.name}
                 </a>
