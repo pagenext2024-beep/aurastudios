@@ -30,6 +30,17 @@ Certifique-se de ter o **Node.js** instalado em sua máquina. Recomendamos a ver
 3.  **Acessar**
     Abra seu navegador em: `http://localhost:5000`
 
+## Deploy na Vercel
+
+Este projeto já está configurado para deploy na Vercel!
+
+1. Suba o código para o GitHub
+2. Conecte o repositório na Vercel
+3. A Vercel vai detectar automaticamente as configurações do arquivo `vercel.json`
+4. Clique em **Deploy**
+
+Pronto! Seu site estará no ar.
+
 ## Estrutura do Projeto
 
 - `client/`: Código fonte do Frontend (React + Vite)
